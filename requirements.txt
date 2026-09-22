@@ -1,0 +1,19 @@
+#langchain - core
+langchain
+langchain-core
+
+#OpenAI
+openai 
+langchain-openai
+
+#huggingface
+langchain-huggingface
+transformers
+huggingface-hub
+
+#env management var
+python-dotenv
+
+#Machine learning utilities
+Numpy
+scikit-learn 

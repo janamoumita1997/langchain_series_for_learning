@@ -35,12 +35,8 @@ load_dotenv()
 # login()
 
 llm = HuggingFacePipeline.from_model_id(
-    model_id= "Qwen/Qwen2.5-Coder-3B-Instruct",
-    task = "text-generation",
-    pipeline_kwargs= dict(
-        temperqture = 0.5,
-        max_new_tokens = 500
-    )
+    model_id= "Qwen/Qwen2.5-0.5B-Instruct",
+    task = "text-generation"
 )
 
 model = ChatHuggingFace(llm = llm)
